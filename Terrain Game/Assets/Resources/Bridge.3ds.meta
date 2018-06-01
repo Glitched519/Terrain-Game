@@ -1,0 +1,208 @@
+fileFormatVersion: 2
+guid: 9470037a0385fb843bb35f7c4099523e
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: ARCHFACE
+    100002: ARCHHANG
+    100004: ARCHSPAC
+    100006: ARCHZIGZ
+    100008: ARMCOFAC
+    100010: BLOCKSID
+    100012: //RootNode
+    100014: FIXTURES
+    100016: GRASSFAC
+    100018: LIGHTARM
+    100020: LINESFAC
+    100022: POLEFACE
+    100024: PYLONFAC
+    100026: PYLONJOI
+    100028: PYLONTUN
+    100030: RAILINGS
+    100032: ROADWAYF
+    100034: SEAROADF
+    100036: SEAWALLF
+    100038: UNDERRO0
+    100040: UNDERRO1
+    400000: ARCHFACE
+    400002: ARCHHANG
+    400004: ARCHSPAC
+    400006: ARCHZIGZ
+    400008: ARMCOFAC
+    400010: BLOCKSID
+    400012: //RootNode
+    400014: FIXTURES
+    400016: GRASSFAC
+    400018: LIGHTARM
+    400020: LINESFAC
+    400022: POLEFACE
+    400024: PYLONFAC
+    400026: PYLONJOI
+    400028: PYLONTUN
+    400030: RAILINGS
+    400032: ROADWAYF
+    400034: SEAROADF
+    400036: SEAWALLF
+    400038: UNDERRO0
+    400040: UNDERRO1
+    2100000: Yellow_0
+    2100002: Metallic
+    2100004: Metal0
+    2100006: Yellow_1
+    2100008: Metal1
+    2100010: Metal2
+    2100012: Metal3
+    2100014: Metal4
+    2100016: Pewter
+    2100018: Dry_gras
+    2100020: _V9_Gene
+    2100022: Flat_gra
+    2100024: Grey_Roc
+    2100026: asphalt
+    2100028: Metal5
+    2100030: White_po
+    2100032: Flat_wh0
+    2100034: Techno_4
+    2100036: Yellow_2
+    2100038: Flat_wh1
+    2300000: ARCHFACE
+    2300002: ARCHHANG
+    2300004: ARCHSPAC
+    2300006: ARCHZIGZ
+    2300008: ARMCOFAC
+    2300010: BLOCKSID
+    2300012: FIXTURES
+    2300014: GRASSFAC
+    2300016: LIGHTARM
+    2300018: LINESFAC
+    2300020: POLEFACE
+    2300022: PYLONFAC
+    2300024: PYLONJOI
+    2300026: PYLONTUN
+    2300028: RAILINGS
+    2300030: ROADWAYF
+    2300032: SEAROADF
+    2300034: SEAWALLF
+    2300036: UNDERRO0
+    2300038: UNDERRO1
+    3300000: ARCHFACE
+    3300002: ARCHHANG
+    3300004: ARCHSPAC
+    3300006: ARCHZIGZ
+    3300008: ARMCOFAC
+    3300010: BLOCKSID
+    3300012: FIXTURES
+    3300014: GRASSFAC
+    3300016: LIGHTARM
+    3300018: LINESFAC
+    3300020: POLEFACE
+    3300022: PYLONFAC
+    3300024: PYLONJOI
+    3300026: PYLONTUN
+    3300028: RAILINGS
+    3300030: ROADWAYF
+    3300032: SEAROADF
+    3300034: SEAWALLF
+    3300036: UNDERRO0
+    3300038: UNDERRO1
+    4300000: PYLONFAC
+    4300002: PYLONTUN
+    4300004: UNDERRO0
+    4300006: POLEFACE
+    4300008: ARCHSPAC
+    4300010: ARCHZIGZ
+    4300012: ARCHFACE
+    4300014: ARCHHANG
+    4300016: LIGHTARM
+    4300018: GRASSFAC
+    4300020: BLOCKSID
+    4300022: SEAROADF
+    4300024: SEAWALLF
+    4300026: ROADWAYF
+    4300028: UNDERRO1
+    4300030: RAILINGS
+    4300032: ARMCOFAC
+    4300034: FIXTURES
+    4300036: PYLONJOI
+    4300038: LINESFAC
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

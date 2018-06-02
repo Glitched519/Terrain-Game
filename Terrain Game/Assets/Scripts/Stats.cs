@@ -9,7 +9,9 @@ public class Stats : MonoBehaviour {
     // Use this for initialization
     void Update () {
         coordinates.text = "Location: " + player.position;
-        direction.text = "Rotation: " + player.rotation.y * 180;
+        direction.text = "Rotation: " + Mathf.Abs((int)(player.rotation.y * 180)) + "°";
+        
+        
 
     }
 

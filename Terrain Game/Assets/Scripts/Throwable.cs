@@ -1,12 +1,14 @@
 ﻿using UnityEngine;
+using UnityEngine.UI;
 
 public class Throwable : MonoBehaviour {
 
     public Transform player, playerCam;
-    public float throwForce = 10;
+    public float throwForce = 200f;
     bool hasPlayer, beingCarried = false;
-        public int dmg;
+    public int dmg;
     private bool touched = false;
+    public Text msg;
 	
 	void Update ()
     {
@@ -14,10 +16,12 @@ public class Throwable : MonoBehaviour {
         if(dist <= 2.5f)
         {
             hasPlayer = true;
+            msg.text = "Left Shift to pick up object.";
         }
         else
         {
             hasPlayer = false;
+            msg.text = null;
         }
         if(hasPlayer && Input.GetButtonDown("Submit"))
         {
@@ -27,6 +31,7 @@ public class Throwable : MonoBehaviour {
         }
         if (beingCarried)
         {
+            msg.text = "Left Click to throw object.";
             if (touched)
             {
                 GetComponent<Rigidbody>().isKinematic = false;
@@ -54,6 +59,7 @@ public class Throwable : MonoBehaviour {
         if (beingCarried)
         {
             touched = true;
+            
         }
     }
 }

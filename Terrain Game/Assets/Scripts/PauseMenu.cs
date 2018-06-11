@@ -47,6 +47,9 @@ public class PauseMenu : MonoBehaviour {
     public void ResetPosition()
     {
         player.position = origin;
+        pauseMenuUI.SetActive(false);
+        GameIsPaused = false;
+        Time.timeScale = 1f;
     }
 
     public void QuitGame()
